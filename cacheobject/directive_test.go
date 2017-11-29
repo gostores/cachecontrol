@@ -1,7 +1,7 @@
 package cacheobject
 
 import (
-	"github.com/geego/require"
+	"github.com/gostores/require"
 
 	"fmt"
 	"math"

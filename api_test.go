@@ -1,8 +1,8 @@
 package cachecontrol
 
 import (
-	"github.com/geego/require"
 	"github.com/gostores/cachecontrol/cacheobject"
+	"github.com/gostores/require"
 
 	"fmt"
 	"io/ioutil"
