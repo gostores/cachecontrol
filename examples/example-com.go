@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/gostores/cachecontrol"
-
 	"fmt"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/gostores/cachecontrol"
 )
 
 func main() {

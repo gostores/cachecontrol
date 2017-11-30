@@ -1,15 +1,15 @@
 package cachecontrol
 
 import (
-	"github.com/gostores/cachecontrol/cacheobject"
-	"github.com/gostores/require"
-
 	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 	"time"
+
+	"github.com/gostores/cacheobject"
+	"github.com/gostores/require"
 )
 
 func roundTrip(t *testing.T, fnc func(w http.ResponseWriter, r *http.Request)) (*http.Request, *http.Response) {

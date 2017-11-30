@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gostores/cachecontrol/cacheobject"
+	"github.com/gostores/cacheobject"
 
 	"fmt"
 	"io/ioutil"
