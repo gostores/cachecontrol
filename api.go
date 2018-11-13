@@ -1,7 +1,7 @@
 package cachecontrol
 
 import (
-	"github.com/gostores/cacheobject"
+	"github.com/govenue/cacheobject"
 
 	"net/http"
 	"time"

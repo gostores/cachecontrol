@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gostores/cacheobject"
-	"github.com/gostores/require"
+	"github.com/govenue/cacheobject"
+	"github.com/govenue/require"
 )
 
 func roundTrip(t *testing.T, fnc func(w http.ResponseWriter, r *http.Request)) (*http.Request, *http.Response) {
